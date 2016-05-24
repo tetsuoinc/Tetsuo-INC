@@ -1,10 +1,14 @@
 {
     "BOT": "Hi there!\nI’m the personal bot of Tetsuo Inc.\n![esther](https://raw.githubusercontent.com/esthercrawford/smooch-bot-example/master/img/esther.jpg)\nWant to know more about bots or learn about Esther? %[I'm here for the bot](postback:here_for_the_bot) %[Learn about Esther](postback:learn_about_esther) %[One random fact!](postback:random_fact)",
-    "HELLO": "Hey, I'm so glad you set your own bot up! Do you want to tell Esther that you're talking to her bot? %[Tell her](postback:twitter)",
+    "BUZZBOTT": "Hey, I'm so glad you set your own bot up! Do you want to tell Esther that you're talking to her bot? %[Tell her](postback:twitter)",
     "TELL HER": "Let's tweet @ Esther so she knows you're setting a bot up. Here's a tweet that's ready to go: %[Tweet Esther](http://bit.ly/estherbot-tweet)",
-    "I LOVE YOU": "Awh, shucks! I love you too!",
-    "WHATS YOUR NAME": "My name is Tetsuo, i am your bot",
+	"HALLO": "Hallo, wie geht es Dir?",
+	"GUT": "Wenn es Dir gut geht, geht es mir auch gut!",
+	"SCHLECHT": "Geht es Dir wirklich soo schlecht?",
+	"GEHT SO": "Aha, geht so! Oder wie der Franzose sagt: Comme Ci, Comme Ca",
+    "ICH LIEBE DICH": "Ahh! Ich liebe Dich auch... \n Echt jetzt \n Ganz und gar!",
+    "WIE IST DEIN NAME": "Mein Name ist BuzzBot und ich bin DEIN Bot! Stets zu Diensten!",
+	"LOL":"Ja! LOL hahaha :-) ",
     "CONNECT ME": "",
-    "LOL":"YES! LOL hahaha :-) ",
-    "DISCONNECT": "Roger that, EstherBot is back."
+    "DISCONNECT": "Roger that, BuzzBot ist zurück."
 }

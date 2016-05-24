@@ -13,7 +13,7 @@ module.exports = new Script({
 
     start: {
         receive: (bot) => {
-            return bot.say('So you want to learn about Esther? Just say HELLO to get started.')
+            return bot.say('Aha, du willst also mit mir sprechen? Sag doch zuerst einam HALLO.')
                 .then(() => 'speak');
         }
     },
@@ -42,22 +42,15 @@ module.exports = new Script({
 /* getReply should allow for some variety in responses for received text messages that 
 do not have an entry in the scripts.json file. */
             function getReply() {
-                var messages = [ "Sorry. I'm not configured with a response to your message. Text COMMANDS to see a few examples.",
-                                 "Hey, I didn't understand that. I suggest sending HELP OUT",
-                                 "Text me ABOUT to learn about the JBot project.",
-                                 "You're not sending messages to an Artifical Intelligence program. Try MORE to see some other COMMANDS",
-                                 "The program responds to COMMANDS only. You have to send a command that I understand. :)",
-                                 "The JBot is not a human. It is just a series of files on a computer. Text ABOUT to learn more.",
-                                 "Seriously, you are wayyyyy smarter than JBot. It just knows simple COMMANDS",
-                                 "Yo. I do not know what you are talking about. Send me a HELLO",
-                                 "There is a ton of information in JBot. You have to use COMMANDS to find it.",
-                                 "That's interesting. Hhhmmm... I never thought of that. Maybe try HELP OUT",
-                                 "Can you say that again?",
-                                 "Yeah... that happens from time to time. Try COMMANDS or ABOUT.",
-                                 "That is a ton of words you just wrote there... I really don't know. Try MORE",
-                                 "Right now, punctuation throws me off. Send text without it. Try HELP OUT",
-                                 "Try sending a command without punctuation.",
-                                 "I'm not programmed to ignore punctuation. So if you're sending something other than letters... I don't understand it."
+                var messages = [ "Sorry. Ich verstehe *noch* nicht alles was Du sagst. Schreib mal KOMMANDOS um zu sehen was ich alles für Dich tun kann.",
+                                 "Hey, das habe ich leider nicht verstanden. Schreib bitte HILFE um mehr zu erfahren.",
+                                 "Schreibe BUZZBOT um mehr über mich zu erfahren.",
+                                 "Du bist ein ganz angenehmer Gesprächspartner. Wie ich Dir helfen kann erfährst Du mit der Eingabe von HILFE.",
+                                 "Yo. Was? Mhm... schreib doch einfach mal HALLO",
+                                 "Kannst Du das bitte wiederholen?",
+                                 "Das war jetzt ein ganzer Aufsatz den Du geschrieben hast... Ich habe echt keinen Plan. Schreib doch einfach mal KOMMANDOS",
+                                 "Ui, Satzzeichen bringen mich durcheinander. Lass sie am besten einfach weg. Hast Du schon mal HILFE probiert?",
+                                 "Bitte lass alle Satzzeichen weg. Die bringen mich irgendwie durcheinander."
                                 ];
 
                 var arrayIndex = Math.floor( Math.random() * messages.length );
@@ -77,7 +70,7 @@ do not have an entry in the scripts.json file. */
                 }
 
                 if (!_.has(scriptRules, upperText)) {
-                    return bot.say(`I didn't understand that.`).then(() => 'speak');
+                    return bot.say(`Das habe ich leider nicht verstanden.`).then(() => 'speak');
                 }
 
                 var response = scriptRules[upperText];
