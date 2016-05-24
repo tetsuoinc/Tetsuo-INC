@@ -40,7 +40,7 @@ module.exports = new Script({
 
 
 /* getReply should allow for some variety in responses for received text messages that 
-do not have an entry in the scripts.json file. */
+do not have an entry in the scripts.json file. 
             function getReply() {
                 var messages = [ "Sorry. Ich verstehe noch nicht alles was Du sagst. Schreib mal KOMMANDOS um zu sehen was ich alles für Dich tun kann.",
                                  "Hey, das habe ich leider nicht verstanden. Schreib bitte HILFE um mehr zu erfahren.",
@@ -52,14 +52,10 @@ do not have an entry in the scripts.json file. */
                                  "Ui, Satzzeichen bringen mich durcheinander. Lass sie am besten einfach weg. Hast Du schon mal HILFE probiert?",
                                  "Bitte lass alle Satzzeichen weg. Die bringen mich irgendwie durcheinander."
                                 ];
-
                 var arrayIndex = Math.floor( Math.random() * messages.length );
-
-
-                return messages[arrayIndex];
-                
+                return messages[arrayIndex];                
             }
-
+*/
 
 
 
