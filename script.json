@@ -1,9 +1,10 @@
 {
 	"BOT": "Hi there!\nI’m the personal bot of Tetsuo Inc.\n![esther](https://raw.githubusercontent.com/esthercrawford/smooch-bot-example/master/img/esther.jpg)\nWant to know more about bots or learn about Esther? %[I'm here for the bot](postback:here_for_the_bot) %[Learn about Esther](postback:learn_about_esther) %[One random fact!](postback:random_fact)",
-	"BUZZBOTT": "Hey, I'm so glad you set your own bot up! Do you want to tell Esther that you're talking to her bot? %[Tell her](postback:twitter)",
+	"BUZZBOT": "Hey, I'm so glad you set your own bot up! Do you want to tell Esther that you're talking to her bot? %[Tell her](postback:twitter)",
 	"FRAGE": "OK, ich soll Dir also eine Frage stellen!? Wählst Du JA oder NEIN ?\n  %[JA](postback:JA) %[NEIN](postback:NEIN) ",
 	"JA": "Du hast mit JA geantwortet.",
 	"NEIN": "Du hast mit NEIN geantwortet.",
+	"TEST": "Das ist ein TEST \n  %[Beschreibung des Buttons](postback:irgendwas)",
 	"TELL HER": "Let's tweet @ Esther so she knows you're setting a bot up. Here's a tweet that's ready to go: %[Tweet Esther](http://bit.ly/estherbot-tweet)",
 	"HALLO": "Hallo, wie geht es Dir?",
 	"GUT": "Wenn es Dir gut geht, geht es mir auch gut!",
