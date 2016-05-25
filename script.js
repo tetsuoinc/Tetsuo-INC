@@ -14,11 +14,21 @@ module.exports = new Script({
     start: {
         receive: (bot) => {
             return bot.say('Hallo, Ich bin BuzzBot.')
-                .then(() => 'speak');
+                .then(() => 'askName');
         }
     },
 
-    speak: {
+    askName: {
+        prompt: (bot) => bot.say('Wie ist dein Name?'),
+        receive: (bot, message) => {
+            const name = message.text;
+            return bot.setProp('name', name)
+                 .then(() => bot.say(`Sehr schön, freut mich Dich kennenzulernen, ${name}`))
+                .then(() => 'speak');  
+        }
+    },
+	
+	speak: {
         receive: (bot, message) => {
 
             let upperText = message.text.trim().toUpperCase();
