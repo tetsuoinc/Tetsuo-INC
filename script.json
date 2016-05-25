@@ -1,4 +1,11 @@
-{
+{	
+	"HILFE": "Klar helfe ich Dir. Du kannst jederzeit folgende Wörter tippen, um mehr über Sebastian zu erfahren: Beruf, Hobbys, Kontakt \n Oder eben... Hilfe :-\)",
+	
+	"BERUF": "Du hast mit NEIN geantwortet.",
+	"HOBBYS": "Du hast mit NEIN geantwortet.",
+	"KONTAKT": "Du hast mit NEIN geantwortet.",
+	"HILFE": "Du hast mit NEIN geantwortet.",
+	
 	"BOT": "Hi there!\nI’m the personal bot of Tetsuo Inc.\n![esther](https://raw.githubusercontent.com/esthercrawford/smooch-bot-example/master/img/esther.jpg)\nWant to know more about bots or learn about Esther? %[I'm here for the bot](postback:here_for_the_bot) %[Learn about Esther](postback:learn_about_esther) %[One random fact!](postback:random_fact)",
 	"BUZZBOT": "Hey, I'm so glad you set your own bot up! Do you want to tell Esther that you're talking to her bot? %[Tell her](postback:twitter)",
 	"FRAGE": "OK, ich soll Dir also eine Frage stellen!? Wählst Du JA oder NEIN ?\n  %[JA](postback:JA) %[NEIN](postback:NEIN) ",
