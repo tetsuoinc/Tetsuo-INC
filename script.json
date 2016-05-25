@@ -8,7 +8,7 @@
 	
 	"BERUF": "Sebastian ist Leiter Frontend Developer bei der Main-Post.",
 	"HOBBYS": "Eines seiner Hobbys ist es Bots wie mich zu programmieren.",
-	"KONTAKT": "Hier sind einige Kontaktmöglichkeiten: %[Email](mailto:mail@sebastian-schuster.de) %[Xing](https://www.xing.com/profile/Sebastian_Schuster5) %[Facebook](https://www.facebook.com/sebastian.schuster) %[Twitter](https://twitter.com/buzzdee) %[Google+](https://plus.google.com/+SebastianSchusterSES) %[LinkedIn](https://www.linkedin.com/in/sebschu)",
+	"KONTAKT": "Du kannst Sebastian eine E-Mail an mail@sebastian-schuster.de schreiben. Hier sind noch mehr Kontaktmöglichkeiten: %[Xing](https://www.xing.com/profile/Sebastian_Schuster5) %[Facebook](https://www.facebook.com/sebastian.schuster) %[Twitter](https://twitter.com/buzzdee) %[Google+](https://plus.google.com/+SebastianSchusterSES) %[LinkedIn](https://www.linkedin.com/in/sebschu)",
 
     "BOT": "Ich bin der persönliche Bot von Sebastian, meistens darf ich Ihn sogar Basti nennen.\n![Sebastian](http://www.sebastian-schuster.de/img/avatar.png) \n Willst Du ? %[Mehr Infos zu Sebastian](postback:mehr_sebastian) %[Mehr Infos zu mir](postback:mehr_bot)",
 	"WIE IST DEIN NAME": "Ich bin der persönliche Bot von Sebastian, meistens darf ich Ihn sogar Basti nennen.\n![Sebastian](http://www.sebastian-schuster.de/img/avatar.png) \n Willst Du ? %[Mehr Infos zu Sebastian](postback:mehr_sebastian) %[Mehr Infos zu mir](postback:mehr_bot)",	
