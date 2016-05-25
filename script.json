@@ -5,6 +5,7 @@
 	"JA": "Du hast mit JA geantwortet.",
 	"NEIN": "Du hast mit NEIN geantwortet.",
 	"TEST": "Das ist ein TEST \n  %[Beschreibung des Buttons](postback:irgendwas)",
+	"IRGENDWAS": "Das ist der Inhalt von IRGENDWAS",
 	"TELL HER": "Let's tweet @ Esther so she knows you're setting a bot up. Here's a tweet that's ready to go: %[Tweet Esther](http://bit.ly/estherbot-tweet)",
 	"HALLO": "Hallo, wie geht es Dir?",
 	"GUT": "Wenn es Dir gut geht, geht es mir auch gut!",
