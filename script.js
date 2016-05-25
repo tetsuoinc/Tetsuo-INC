@@ -53,15 +53,10 @@ module.exports = new Script({
 
 			/* getReply randomly*/
             function getReply() {
-                var messages = [ "Sorry. Ich verstehe noch nicht alles was Du sagst. Schreib mal KOMMANDOS um zu sehen was ich alles für Dich tun kann.",
-                                 "Hey, das habe ich leider nicht verstanden. Schreib bitte HILFE um mehr zu erfahren.",
-                                 "Schreibe BUZZBOT um mehr über mich zu erfahren.",
-                                 "Du bist ein ganz angenehmer Gesprächspartner. Wie ich Dir helfen kann erfährst Du mit der Eingabe von HILFE.",
-                                 "Yo. Was? Mhm... schreib doch einfach mal HILFE",
-                                 "Kannst Du das bitte wiederholen?",
-                                 "Das war jetzt ein ganzer Aufsatz den Du geschrieben hast. Ich habe echt keinen Plan. Schreib doch einfach mal KOMMANDOS",
-                                 "Ui, Satzzeichen bringen mich durcheinander. Lass sie am besten einfach weg. Hast Du schon mal HILFE probiert?",
-                                 "Bitte lass alle Satzzeichen weg. Die bringen mich irgendwie durcheinander."
+                var messages = [ "Sorry, ich verstehe noch nicht alles was Du sagst. Schreib mal HILFE um zu sehen was ich alles für Dich tun kann.",
+                                 "Sorry, das habe ich leider nicht verstanden. Schreib bitte HILFE um mehr zu erfahren.",
+                                 "Äh, wie bitte? Wenn du das Wort HILFE eingibst, erfährst Du mehr!",
+                                 "Ups, das habe ich jetzt nicht verstanden. Hast Du schon mal HILFE eingegeben?"
                                 ];
                 var arrayIndex = Math.floor( Math.random() * messages.length );
                 return messages[arrayIndex];                
