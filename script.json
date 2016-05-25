@@ -1,8 +1,8 @@
 {	
 	"HILFE": "Bei welchem Thema soll ich Dir helfen: %[Sebastian](postback:hilfe_sebastian) %[Befehle](postback:hile_befehle)",
 	
-	"Sebastian": "Mehr zu Sebastian",
-	"Befehle": "Mehr zu Befehlen",
+	"SEBASTIAN": "Mehr zu Sebastian",
+	"BEFEHLE": "Mehr zu Befehlen",
 	
 	"BERUF": "Sebastian ist Leiter Frontend Developer bei der Main-Post.",
 	"HOBBYS": "Eines seiner Hobbys ist es Bots wie mich zu programmieren.",
