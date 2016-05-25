@@ -30,7 +30,7 @@ module.exports = new Script({
 
 	
 	speak: {
-		prompt: (bot) => bot.say('Um mehr über Sebastian zu erfahren, kannst Du jederzeit folgendes tippen: Beruf, Hobbys, Kontakt, Hilfe'),
+		//prompt: (bot) => bot.say('Um mehr über Sebastian zu erfahren, kannst Du jederzeit folgendes tippen: Beruf, Hobbys, Kontakt, Hilfe'),
         receive: (bot, message) => {
 
             let upperText = message.text.trim().toUpperCase();
@@ -85,8 +85,8 @@ module.exports = new Script({
 				
 
 				if (!_.has(scriptRules, upperText)) {
-                    //return bot.say( getReply() ).then( () => 'speak');
-					return bot.say( getReply() ).then( () => 'getReply');
+                    return bot.say( getReply() ).then( () => 'speak');
+
                 }
 
                 var response = scriptRules[upperText];
