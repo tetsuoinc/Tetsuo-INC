@@ -49,15 +49,31 @@
 
 	
 	"HALLO": "Hallo, wie geht es Dir? %[Gut](postback:geht_gut) %[Schlecht](postback:geht_schlecht) %[Geht so](postback:geht_so) ",
-	"GUT": "Wenn es Dir gut geht, geht es mir auch gut!",
-	"SCHLECHT": "Geht es Dir wirklich soooo schlecht?! Na komm schon, Kopf hoch!",
-	"GEHT SO": "Aha, geht so! Oder wie der Franzose sagt: Comme Ci, Comme Ca",
+	"GUT": "Na das ist doch toll! \n Bei welchem Thema soll ich Dir helfen: %[Sebastian](postback:hilfe_sebastian) %[Befehle](postback:hilfe_befehle)",
+	"SCHLECHT": "Geht es Dir wirklich soooo schlecht?! Na komm schon, Kopf hoch! \n Bei welchem Thema soll ich Dir helfen: %[Sebastian](postback:hilfe_sebastian) %[Befehle](postback:hilfe_befehle)",
+	"GEHT SO": "Aha, geht so! Oder wie der Franzose sagt: Comme Ci, Comme Ca \n Bei welchem Thema soll ich Dir helfen: %[Sebastian](postback:hilfe_sebastian) %[Befehle](postback:hilfe_befehle)",
 	
-	"ICH LIEBE DICH": "Ahh! Ich liebe Dich auch... \nEcht jetzt \nGanz und gar!",
+	"ICH LIEBE DICH": "Oh, das ist sehr lieb. Vielen Dank!",
+	
 	"ZIEH DICH AUS": "Stimmt, ist warm hier... Ich habe mir mein Hemd schon ausgezogen \n ![](https://pixabay.com/static/uploads/photo/2015/03/29/14/33/hand-697264_960_720.png)",
-	
+	"MACH DICH NACKIG": "Stimmt, ist warm hier... Ich habe mir mein Hemd schon ausgezogen \n ![](https://pixabay.com/static/uploads/photo/2015/03/29/14/33/hand-697264_960_720.png)",
+	"MACH DICH NACKT": "Stimmt, ist warm hier... Ich habe mir mein Hemd schon ausgezogen \n ![](https://pixabay.com/static/uploads/photo/2015/03/29/14/33/hand-697264_960_720.png)",
+	"AUSZIEHEN": "Stimmt, ist warm hier... Ich habe mir mein Hemd schon ausgezogen \n ![](https://pixabay.com/static/uploads/photo/2015/03/29/14/33/hand-697264_960_720.png)",
+	"STRIP": "Stimmt, ist warm hier... Ich habe mir mein Hemd schon ausgezogen \n ![](https://pixabay.com/static/uploads/photo/2015/03/29/14/33/hand-697264_960_720.png)",
 
+	
 	"LOL": "Ja! LOL hahaha",
+	"ROFL": "Ja! ROFL hahaha",
+	
+	"ARSCH" : "Ich glaube wir beenden die Konversation jetzt gleich...",
+	"FOTZE" : "Ich glaube wir beenden die Konversation jetzt gleich...",
+	"SACK" : "Ich glaube wir beenden die Konversation jetzt gleich...",
+	"FICKEN" : "Ich glaube wir beenden die Konversation jetzt gleich...",
+	"SCHEISSE" : "Ich glaube wir beenden die Konversation jetzt gleich...",
+	"ARSCHLOCH" : "Ich glaube wir beenden die Konversation jetzt gleich...",
+	"PIMMEL" : "Ich glaube wir beenden die Konversation jetzt gleich...",
+	
+	
 	
 	"OK" : "Okay, auch OK oder O.K. ist ein umgangssprachliches Wort aus dem amerikanischen Englisch das so viel wie (alles) in Ordnung bedeutet. %[Quelle:Wikipedia](https://de.wikipedia.org/wiki/Okay)",
 	"KLUGSCHEISSER" : "Da habe ich jetzt nicht gehört",
