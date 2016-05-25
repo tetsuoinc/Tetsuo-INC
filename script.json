@@ -1,5 +1,8 @@
 {	
-	"HILFE": "Klar helfe ich Dir. Du kannst jederzeit folgende Wörter tippen, um mehr über Sebastian zu erfahren: Beruf, Hobbys, Kontakt oder Hilfe",
+	"HILFE": "Bei welchem Thema soll ich Dir helfen: %[Sebastian](postback:hilfe_sebastian) %[Befehle](postback:hile_befehle)",
+	
+	"Sebastian": "Mehr zu Sebastian",
+	"Befehle": "Mehr zu Befehlen",
 	
 	"BERUF": "Sebastian ist Leiter Frontend Developer bei der Main-Post.",
 	"HOBBYS": "Eines seiner Hobbys ist es Bots wie mich zu programmieren.",
