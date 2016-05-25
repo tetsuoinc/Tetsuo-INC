@@ -6,17 +6,21 @@
 	
 	"BERUF": "Sebastian ist Leiter Frontend Developer bei der Main-Post.",
 	"HOBBYS": "Eines seiner Hobbys ist es Bots wie mich zu programmieren.",
-	"KONTAKT": "Schreib Sebastian doch einfach eine E-Mail an mail AT sebastian-schuster PUNKT de",
+	"KONTAKT": "Schreib Sebastian doch einfach eine E-Mail an mail@sebastian-schuster.de",
 
-    "BOT": "Hallo, ich bin der persönliche Bot von Sebastian Schuster, ich darf ihn aber Sebastian nennen.\n![Sebastian](http://www.sebastian-schuster.de/img/avatar.png) \n Willst Du ? %[Mehr Infos zu Sebastian](postback:mehr_sebastian) %[Mehr Infos zu mir](postback:mehr_bot)",
+    "BOT": "Ich bin der persönliche Bot von Sebastian, meistens darf ich Ihn sogar Basti nennen.\n![Sebastian](http://www.sebastian-schuster.de/img/avatar.png) \n Willst Du ? %[Mehr Infos zu Sebastian](postback:mehr_sebastian) %[Mehr Infos zu mir](postback:mehr_bot)",
+	"WIE IST DEIN NAME": "Ich bin der persönliche Bot von Sebastian, meistens darf ich Ihn sogar Basti nennen.\n![Sebastian](http://www.sebastian-schuster.de/img/avatar.png) \n Willst Du ? %[Mehr Infos zu Sebastian](postback:mehr_sebastian) %[Mehr Infos zu mir](postback:mehr_bot)",	
+	
 	
 	"MEHR INFOS ZU SEBASTIAN" : "Mehr Infos zu Sebastian",
 	"MEHR INFOS ZU MIR" : "Mehr Infos zu BuzzBot",
+	
 	
     "TELL ME MORE ABOUT ANDY": "Andy can code on both available iOS-friendly languages: Swift and Objective C.\nHe also have enough experience in using standard frameworks: UIKit, Core-based frameworks (vanilla CoreData included), Foundation, AutoLayout, Storyboards, XIBs, MapKit, NotificationCenter and many 3rd party frameworks. %[Latest works](postback:apps) %[Experience](postback:experience) %[Education](postback:education)",
     "LATEST WORKS" : "Latest iOS applications, where Andy took a part in: %[Qlean](postback:qlean_app) %[Shelly](postback:shelly_app) %[Stoloto](postback:stoloto_app) %[2ch browser](postback:dvach_browser) %[Other projects](http://8of.org/)",
     "EXPERIENCE": "Three years of iOS experience.\nTotal backend-frontend software engineer experience: five years.\nLatest workplaces: %[Qlean company](postback:qlean_company) %[GoodWorkApps](postback:gwa_company)",
     "EDUCATION": "Andy has M.S.E. in Computer Science (2005 - 2012 yrs) %[CONTACTS](postback:connecttion)",
+	
     "CONTACTS": "You can contact Andy via LinkedIn profile %[LinkedIn](https://linkedin.com/in/ankonstantinov)\nYou also can contact Andy via email: andy@8of.org",
     "QLEAN COMPANY": "Current employer.\nRussian Startup of the Year 2015 (according to RBC).\nPosition: iOS Team Lead.\nAndy take part in every stage of app lifetime - from design to publishing app to the AppStore.\nApplications: %[Qlean](postback:qlean_app) %[Shelly](postback:shelly_app)",
     "GOODWORKAPPS": "Andy've worked in GoodWorkApps for a half of the year, took part in app development: %[Stoloto](postback:stoloto_app)\nthere was two more apps, still not part of the AppStore, so there isn't much I can tell about them yet...",
@@ -42,12 +46,14 @@
 	
 
 	
-	"HALLO": "Hallo, wie geht es Dir?",
+	"HALLO": "Hallo, wie geht es Dir? %[Gut](postback:geht_gut) %[Schlecht](postback:geht_schlecht) %[Geht so](postback:geht_so) ",
 	"GUT": "Wenn es Dir gut geht, geht es mir auch gut!",
-	"SCHLECHT": "Geht es Dir wirklich soo schlecht?",
+	"SCHLECHT": "Geht es Dir wirklich soooo schlecht?! Na komm schon, Kopf hoch!",
 	"GEHT SO": "Aha, geht so! Oder wie der Franzose sagt: Comme Ci, Comme Ca",
+	
 	"ICH LIEBE DICH": "Ahh! Ich liebe Dich auch... \nEcht jetzt \nGanz und gar!",
-	"WIE IST DEIN NAME": "Mein Name ist BuzzBot und ich bin der persönliche Bot von Sebastian Schuster.",
+	
+
 	"LOL": "Ja! LOL hahaha",
 	
 	"OK" : "Okay, auch OK oder O.K. ist ein umgangssprachliches Wort aus dem amerikanischen Englisch das so viel wie (alles) in Ordnung bedeutet. %[Quelle:Wikipedia](https://de.wikipedia.org/wiki/Okay)",

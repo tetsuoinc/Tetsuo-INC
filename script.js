@@ -56,7 +56,8 @@ module.exports = new Script({
                 var messages = [ "Sorry, ich verstehe noch nicht alles was Du sagst. Schreib mal HILFE um zu sehen was ich alles für Dich tun kann.",
                                  "Sorry, das habe ich leider nicht verstanden. Schreib bitte HILFE um mehr zu erfahren.",
                                  "Äh, wie bitte? Wenn du das Wort HILFE eingibst, erfährst Du mehr!",
-                                 "Ups, das habe ich jetzt nicht verstanden. Hast Du schon mal HILFE eingegeben?"
+                                 "Ups, das habe ich jetzt nicht verstanden. Hast Du schon mal HILFE eingegeben?",
+								 "Hast Du schon mal BUZZBOT eingegeben? Du kannst es aber auch mit HILFE probieren!"
                                 ];
                 var arrayIndex = Math.floor( Math.random() * messages.length );
                 return messages[arrayIndex];                
