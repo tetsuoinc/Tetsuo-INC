@@ -23,7 +23,7 @@ module.exports = new Script({
         receive: (bot, message) => {
             const name = message.text;
             return bot.setProp('name', name)
-                 .then(() => bot.say(`Freut mich Dich kennenzulernen, ${name}. Gib HILFE ein, um Themen zu sehen über die wir sprechen können. \nDu kannst alles kleinschreiben und lass bitte Satzzeichen wie Punkt, Komma, Ausrufe- und Fragezeichen einfach weg. Die bringen mich nur durcheinandern. :smile: `))
+                 .then(() => bot.say(`Freut mich Dich kennenzulernen, ${name}. Gib HILFE ein, um Themen zu sehen über die wir sprechen können. \nDu kannst alles kleinschreiben und lass bitte Satzzeichen wie Punkt, Komma, Ausrufe- und Fragezeichen einfach weg. Die bringen mich nur durcheinandern. `))
                 .then(() => 'speak');  
         }
     },
