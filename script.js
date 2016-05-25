@@ -40,13 +40,13 @@ module.exports = new Script({
 
 
 /* getReply should allow for some variety in responses for received text messages that 
-do not have an entry in the scripts.json file. 
+do not have an entry in the scripts.json file. */
             function getReply() {
                 var messages = [ "Sorry. Ich verstehe noch nicht alles was Du sagst. Schreib mal KOMMANDOS um zu sehen was ich alles für Dich tun kann.",
                                  "Hey, das habe ich leider nicht verstanden. Schreib bitte HILFE um mehr zu erfahren.",
                                  "Schreibe BUZZBOT um mehr über mich zu erfahren.",
                                  "Du bist ein ganz angenehmer Gesprächspartner. Wie ich Dir helfen kann erfährst Du mit der Eingabe von HILFE.",
-                                 "Yo. Was? Mhm... schreib doch einfach mal HALLO",
+                                 "Yo. Was? Mhm... schreib doch einfach mal HILFE",
                                  "Kannst Du das bitte wiederholen?",
                                  "Das war jetzt ein ganzer Aufsatz den Du geschrieben hast. Ich habe echt keinen Plan. Schreib doch einfach mal KOMMANDOS",
                                  "Ui, Satzzeichen bringen mich durcheinander. Lass sie am besten einfach weg. Hast Du schon mal HILFE probiert?",
@@ -55,7 +55,7 @@ do not have an entry in the scripts.json file.
                 var arrayIndex = Math.floor( Math.random() * messages.length );
                 return messages[arrayIndex];                
             }
-*/
+
 
 
 
@@ -65,8 +65,16 @@ do not have an entry in the scripts.json file.
                     return Promise.resolve("speak");
                 }
 
-                if (!_.has(scriptRules, upperText)) {
+                /*  remove the text in between the () after bot.say and place the function getReply
+				
+				if (!_.has(scriptRules, upperText)) {
                     return bot.say(`Das habe ich leider nicht verstanden.`).then(() => 'speak');
+                }
+				*/
+				
+
+				if (!_.has(scriptRules, upperText)) {
+                    return bot.say( getReply() ).then( () => 'speak');
                 }
 
                 var response = scriptRules[upperText];
