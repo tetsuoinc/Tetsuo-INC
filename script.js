@@ -7,7 +7,7 @@ const scriptRules = require('./script.json');
 
 module.exports = new Script({
     processing: {
-        //prompt: (bot) => bot.say('Beep Bye.'),
+        // prompt: (bot) => bot.say('Beep Bye.'),
         receive: () => 'processing'
     },
 
@@ -26,6 +26,26 @@ module.exports = new Script({
                  .then(() => bot.say(`Sehr schön, freut mich Dich kennenzulernen, ${name}`))
                 .then(() => 'speak');  
         }
+    },
+	
+	talkRandom: {
+        prompt: (bot) => bot.say("I normally don't let go anyone untill they say 'bye'"),
+        receive: (bot, message) => {
+                let upperText = message.text.trim().toUpperCase();
+                if(upperText === "BYE"){
+                    return bot.say("Great chatting with you. Have a good day ahead. Bye.");
+                }
+            }
+    },
+
+    tellMore: {
+        prompt: (bot) => bot.say("If you want to learn more about Awdesh just type 'more'"),
+        receive: (bot, message) => {
+                let upperText = message.text.trim().toUpperCase();
+                if(upperText === "MORE"){
+                    return bot.say("Awdesh recently participated in AngelHack Hackathon Delievered successful project and pitched the idea to inverstors. Amazon recognized the effort and rewarded each team member with Fire-TV. Hurray!!!!"); 
+                }
+            }
     },
 	
 	speak: {
