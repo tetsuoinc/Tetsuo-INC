@@ -31,7 +31,7 @@ class BetterSmoochApiBot extends SmoochApiBot {
     }
 }
 
-const name = 'SES-Bot';
+const name = 'BuzzBot';
 const avatarUrl = 'http://www.buzzpics.de/images/2016/05/25/bot5cc77.th.png';
 const store = new SmoochApiStore({
     jwt
