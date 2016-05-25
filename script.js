@@ -49,6 +49,7 @@ module.exports = new Script({
     },
 	
 	speak: {
+		prompt: (bot) => bot.say('Um mehr über Sebastian zu erfahren, kannst Du jederzeit folgendes tippen: Beruf, Hobbys, Kontakt, Hilfe'),
         receive: (bot, message) => {
 
             let upperText = message.text.trim().toUpperCase();
