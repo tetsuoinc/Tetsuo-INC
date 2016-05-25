@@ -8,7 +8,7 @@
 	"HOBBYS": "Eines seiner Hobbys ist es Bots wie mich zu programmieren.",
 	"KONTAKT": "Schreib Sebastian doch einfach eine E-Mail an mail AT sebastian-schuster PUNKT de",
 
-    "BOT": "Hallo, ich bin der persönliche Bot von Sebastian Schuster, ich darf ihn aber Sebastian nennen.\n ![](http://www.sebastian-schuster.de/img/avatar.png) %[Mehr Infos zu Sebastian](postback:mehr_sebastian) %[Mehr Infos zu Dir](postback:mehr_bot)",
+    "BOT": "Hallo, ich bin der persönliche Bot von Sebastian Schuster, ich darf ihn aber Sebastian nennen.\n![Basti](https://raw.githubusercontent.com/esthercrawford/smooch-bot-example/master/img/esther.jpg) %[Mehr Infos zu Sebastian](postback:mehr_sebastian) %[Mehr Infos zu Dir](postback:mehr_bot)",
 	
 	"MEHR INFOS ZU SEBASTIAN" : "Mehr Infos zu Sebastian",
 	"MEHR INFOS ZU DIR" : "Mehr Infos zu BuzzBot",
