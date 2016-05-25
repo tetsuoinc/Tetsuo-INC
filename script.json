@@ -1,5 +1,5 @@
 {	
-	"HILFE": "Bei welchem Thema soll ich Dir helfen: %[Sebastian](postback:hilfe_sebastian) %[Befehle](postback:hile_befehle)",
+	"HILFE": "Bei welchem Thema soll ich Dir helfen: %[Sebastian](postback:hilfe_sebastian) %[Befehle](postback:hilfe_befehle)",
 	
 	"SEBASTIAN": "Mehr zu Sebastian",
 	"SEBASTIAN SCHUSTER": "Mehr zu Sebastian",
@@ -11,7 +11,7 @@
 	"KONTAKT": "Du kannst Sebastian eine E-Mail an mail@sebastian-schuster.de schreiben. Hier sind noch mehr Kontaktmöglichkeiten: %[Xing](https://www.xing.com/profile/Sebastian_Schuster5) %[Facebook](https://www.facebook.com/sebastian.schuster) %[Twitter](https://twitter.com/buzzdee) %[Google+](https://plus.google.com/+SebastianSchusterSES) %[LinkedIn](https://www.linkedin.com/in/sebschu)",
 
     "BOT": "Ich bin der persönliche Bot von Sebastian, meistens darf ich Ihn sogar Basti nennen.\n![Sebastian](http://www.sebastian-schuster.de/img/avatar.png) \n Willst Du ? %[Mehr Infos zu Sebastian](postback:mehr_sebastian) %[Mehr Infos zu mir](postback:mehr_bot)",
-	"WIE IST DEIN NAME": "Ich bin der persönliche Bot von Sebastian, meistens darf ich Ihn sogar Basti nennen.\n![Sebastian](http://www.sebastian-schuster.de/img/avatar.png) \n Willst Du ? %[Mehr Infos zu Sebastian](postback:mehr_sebastian) %[Mehr Infos zu mir](postback:mehr_bot)",	
+	"WIE IST DEIN NAME": "Ich heisse BUZZBOT und ich bin der persönliche Bot von Sebastian, meistens darf ich Ihn sogar Basti nennen.\n![Sebastian](http://www.sebastian-schuster.de/img/avatar.png) \n Willst Du ? %[Mehr Infos zu Sebastian](postback:mehr_sebastian) %[Mehr Infos zu mir](postback:mehr_bot)",	
 	
 	
 	"MEHR INFOS ZU SEBASTIAN" : "Mehr Infos zu Sebastian",
@@ -54,6 +54,7 @@
 	"GEHT SO": "Aha, geht so! Oder wie der Franzose sagt: Comme Ci, Comme Ca",
 	
 	"ICH LIEBE DICH": "Ahh! Ich liebe Dich auch... \nEcht jetzt \nGanz und gar!",
+	"ZIEH DICH AUS": "Uh ja... Ich habe mir mein Hemd schon ausgezogen. ![] (https://pixabay.com/static/uploads/photo/2015/03/29/14/33/hand-697264_960_720.png)",
 	
 
 	"LOL": "Ja! LOL hahaha",
