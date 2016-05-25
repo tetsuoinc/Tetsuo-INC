@@ -39,11 +39,11 @@ module.exports = new Script({
     },
 
     tellMore: {
-        prompt: (bot) => bot.say("If you want to learn more about Awdesh just type 'more'"),
+        prompt: (bot) => bot.say("Wenn Du mehr über Sebastian erfahren willst, schreib einfach 'mehr'"),
         receive: (bot, message) => {
                 let upperText = message.text.trim().toUpperCase();
-                if(upperText === "MORE"){
-                    return bot.say("Awdesh recently participated in AngelHack Hackathon Delievered successful project and pitched the idea to inverstors. Amazon recognized the effort and rewarded each team member with Fire-TV. Hurray!!!!"); 
+                if(upperText === "MEHR"){
+                    return bot.say("Sebastian kann noch viel mehr ..."); 
                 }
             }
     },
@@ -105,7 +105,8 @@ do not have an entry in the scripts.json file. */
 				
 
 				if (!_.has(scriptRules, upperText)) {
-                    return bot.say( getReply() ).then( () => 'speak');
+                    //return bot.say( getReply() ).then( () => 'speak');
+					return bot.say( getReply() ).then( () => 'tellMore');
                 }
 
                 var response = scriptRules[upperText];
