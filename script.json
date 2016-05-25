@@ -8,9 +8,31 @@
 	"HOBBYS": "Eines seiner Hobbys ist es Bots wie mich zu programmieren.",
 	"KONTAKT": "Schreib Sebastian doch einfach eine E-Mail an mail AT sebastian-schuster PUNKT de",
 
+    "BOT": "Hallo, ich bin der persönliche Bot von Sebastian Schuster, ich darf ihn aber Sebastian nennen\n! [Sebastian](http://www.sebastian-schuster.de/img/avatar.png) %[Erzähl mir mehr über Sebastian](postback:mehr_sebastian) %[Erzähl mir mehr über Dich](postback:mehr_bot)",
 	
-	"BOT": "Hi there!\nI’m the personal bot of Tetsuo Inc.\n![esther](https://raw.githubusercontent.com/esthercrawford/smooch-bot-example/master/img/esther.jpg)\nWant to know more about bots or learn about Esther? %[I'm here for the bot](postback:here_for_the_bot) %[Learn about Esther](postback:learn_about_esther) %[One random fact!](postback:random_fact)",
-	"BUZZBOT": "Hey, I'm so glad you set your own bot up! Do you want to tell Esther that you're talking to her bot? %[Tell her](postback:twitter)",
+	"ERZÄHL MIR MEHR ÜBER SEBASTIAN" : "Mehr Infos zu Sebastian",
+	"ERZÄHL MIR MEHR ÜBER DICH" : "Mehr Infos zu BuzzBot",
+	
+    "TELL ME MORE ABOUT ANDY": "Andy can code on both available iOS-friendly languages: Swift and Objective C.\nHe also have enough experience in using standard frameworks: UIKit, Core-based frameworks (vanilla CoreData included), Foundation, AutoLayout, Storyboards, XIBs, MapKit, NotificationCenter and many 3rd party frameworks. %[Latest works](postback:apps) %[Experience](postback:experience) %[Education](postback:education)",
+    "LATEST WORKS" : "Latest iOS applications, where Andy took a part in: %[Qlean](postback:qlean_app) %[Shelly](postback:shelly_app) %[Stoloto](postback:stoloto_app) %[2ch browser](postback:dvach_browser) %[Other projects](http://8of.org/)",
+    "EXPERIENCE": "Three years of iOS experience.\nTotal backend-frontend software engineer experience: five years.\nLatest workplaces: %[Qlean company](postback:qlean_company) %[GoodWorkApps](postback:gwa_company)",
+    "EDUCATION": "Andy has M.S.E. in Computer Science (2005 - 2012 yrs) %[CONTACTS](postback:connecttion)",
+    "CONTACTS": "You can contact Andy via LinkedIn profile %[LinkedIn](https://linkedin.com/in/ankonstantinov)\nYou also can contact Andy via email: andy@8of.org",
+    "QLEAN COMPANY": "Current employer.\nRussian Startup of the Year 2015 (according to RBC).\nPosition: iOS Team Lead.\nAndy take part in every stage of app lifetime - from design to publishing app to the AppStore.\nApplications: %[Qlean](postback:qlean_app) %[Shelly](postback:shelly_app)",
+    "GOODWORKAPPS": "Andy've worked in GoodWorkApps for a half of the year, took part in app development: %[Stoloto](postback:stoloto_app)\nthere was two more apps, still not part of the AppStore, so there isn't much I can tell about them yet...",
+    "QLEAN": "Uber-like service for ordering cleaners to clean up the house or office.\nOnly available in Russia. Written in Swift. %[AppStore Link](https://itunes.apple.com/en/app/uborka-kvartir-ot-qlean-zakaz/id1011771034?mt=8)",
+    "SHELLY": "Uber-like service for ordering manicure specialist to the flat or office.\nOnly available in Russia. Written in Swift. %[AppStore Link](https://itunes.apple.com/en/app/shelly-manikur-na-domu/id1067956157?mt=8)",
+    "STOLOTO": "Russia's largest lottery shop. Written in Objective C. %[AppStore Link](https://itunes.apple.com/en/app/loterei-stoloto-u-nas-vyigryvaut/id579961527?mt=8)",
+    "2CH BROWSER": "Andy's own project.\nClient for the most popular Russian anonymous image board service 2ch. Written in Objective C.\nCode is open sourced, it's well-structured, you can view it on GitHub. You also can view app on the AppStore. %[GitHub](https://github.com/8ofproject/2ch-Browser-iOS) %[AppStore Link](https://itunes.apple.com/app/2ch-browser/id929022093?mt=8)",
+	
+	
+	
+	
+	
+	"BUZZBOT": "Exakt, so heisse ich. Willst Du Sebastian mitteilen, dass Du mit seinem Bot sprichst ?  %[Sags Ihm](postback:twitter)",
+	"SAGS IHM": "Lass uns Sebastian antwittern, damit er mitbekommt dass wir gerade miteinander sprechen. Ich habe einen Tweet vorbereitet, du musst ihn nur abschicken: %[Tweet Sebastian](http://bit.do/buzzbot-tweet)",
+	
+	
 	"FRAGE": "OK, ich soll Dir also eine Frage stellen!? Wählst Du JA oder NEIN ?\n  %[JA](postback:JA) %[NEIN](postback:NEIN) ",
 	"JA": "Du hast mit JA geantwortet.",
 	"NEIN": "Du hast mit NEIN geantwortet.",
@@ -18,15 +40,16 @@
 	"TEST": "Hier steht ein Test-Satz %[testausgabe](postback:test)",
 	"TESTAUSGABE": "Das ist der Text der durch den Button ausgelöst wurde!",
 	
-	"TELL HER": "Let's tweet @ Esther so she knows you're setting a bot up. Here's a tweet that's ready to go: %[Tweet Esther](http://bit.ly/estherbot-tweet)",
+
+	
 	"HALLO": "Hallo, wie geht es Dir?",
 	"GUT": "Wenn es Dir gut geht, geht es mir auch gut!",
 	"SCHLECHT": "Geht es Dir wirklich soo schlecht?",
 	"GEHT SO": "Aha, geht so! Oder wie der Franzose sagt: Comme Ci, Comme Ca",
 	"ICH LIEBE DICH": "Ahh! Ich liebe Dich auch... \nEcht jetzt \nGanz und gar!",
-	"WIE IST DEIN NAME": "Mein Name ist BuzzBot und ich bin DEIN Bot! Stets zu Diensten!",
+	"WIE IST DEIN NAME": "Mein Name ist BuzzBot und ich bin der persönliche Bot von Sebastian Schuster.",
 	"LOL": "Ja! LOL hahaha",
 	
 	"CONNECT ME": "",
-	"DISCONNECT": "Roger, BuzzBot ist zurück."
+	"DISCONNECT": "Roger, BuzzBot ist zurück. \nSag HALLO."
 }
