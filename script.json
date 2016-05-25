@@ -43,8 +43,7 @@
 	"JA": "Du hast mit JA geantwortet.",
 	"NEIN": "Du hast mit NEIN geantwortet.",
 	
-	"TEST": "Hier steht ein Test-Satz %[testausgabe](postback:test)",
-	"TESTAUSGABE": "Das ist der Text der durch den Button ausgelöst wurde!",
+
 	
 
 	
@@ -78,6 +77,8 @@
 	"OK" : "Okay, auch OK oder O.K. ist ein umgangssprachliches Wort aus dem amerikanischen Englisch das so viel wie (alles) in Ordnung bedeutet. %[Quelle:Wikipedia](https://de.wikipedia.org/wiki/Okay)",
 	"KLUGSCHEISSER" : "Da habe ich jetzt nicht gehört",
 	
+	"TEST": "Hier steht ein Test-Satz %[testausgabe](postback:test)",
+	"TESTAUSGABE": "Das ist der Text der durch den Button ausgelöst wurde!",
 	
 	"CONNECT ME": "",
 	"DISCONNECT": "Roger, BuzzBot ist zurück. \nSag HALLO."
