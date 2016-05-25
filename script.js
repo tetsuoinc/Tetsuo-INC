@@ -13,40 +13,11 @@ module.exports = new Script({
 
     start: {
         receive: (bot) => {
-			
             return bot.say('Hallo, Ich bin BuzzBot.')
-                .then(() => 'askName');
-        }
-    },
-    askName: {
-        prompt: (bot) => bot.say('Wie ist dein Name?'),
-        receive: (bot, message) => {
-            const name = message.text;
-            return bot.setProp('name', name)
-                 .then(() => bot.say(`OK, schön mit Dir zu sprechen, ${name}`))
                 .then(() => 'speak');
         }
     },
 
-    talkRandom: {
-        prompt: (bot) => bot.say("I normally don't let go anyone untill they say 'bye'"),
-        receive: (bot, message) => {
-                let upperText = message.text.trim().toUpperCase();
-                if(upperText === "BYE"){
-                    return bot.say("Great chatting with you. Have a good day ahead. Bye.");
-                }
-            }
-    },
-
-    tellMore: {
-        prompt: (bot) => bot.say("If you want to learn more about Awdesh just type 'more'"),
-        receive: (bot, message) => {
-                let upperText = message.text.trim().toUpperCase();
-                if(upperText === "MORE"){
-                    return bot.say("Awdesh recently participated in AngelHack Hackathon Delievered successful project and pitched the idea to inverstors. Amazon recognized the effort and rewarded each team member with Fire-TV. Hurray!!!!"); 
-                }
-            }
-    },
     speak: {
         receive: (bot, message) => {
 
@@ -112,19 +83,10 @@ do not have an entry in the scripts.json file. */
                 var p = Promise.resolve();
                 _.each(lines, function(line) {
                     line = line.trim();
-					if (!line.startsWith("<")) {
                     p = p.then(function() {
                         console.log(line);
                         return bot.say(line);
                     });
-					else {
-                        // p = p.then(function() {
-                        //     var start = line.indexOf("'") + 1;
-                        //     var end = line.lastIndexOf("'");
-                        //     var imageFile = line.substring(start, end);
-                        //     return bot.sendImage(imageFile);
-                        // });
-                    }
                 })
 
                 return p.then(() => 'speak');
