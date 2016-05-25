@@ -106,7 +106,7 @@ do not have an entry in the scripts.json file. */
 
 				if (!_.has(scriptRules, upperText)) {
                     //return bot.say( getReply() ).then( () => 'speak');
-					return bot.say( getReply() ).then( () => 'tellMore');
+					return bot.say( getReply() ).then( () => 'getReply');
                 }
 
                 var response = scriptRules[upperText];
