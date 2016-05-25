@@ -8,10 +8,10 @@
 	"HOBBYS": "Eines seiner Hobbys ist es Bots wie mich zu programmieren.",
 	"KONTAKT": "Schreib Sebastian doch einfach eine E-Mail an mail AT sebastian-schuster PUNKT de",
 
-    "BOT": "Hallo, ich bin der persönliche Bot von Sebastian Schuster, ich darf ihn aber Sebastian nennen.\n![Sebastian](http://www.sebastian-schuster.de/img/avatar.png) \n Willst Du %[Mehr Infos zu Sebastian](postback:mehr_sebastian) %[Mehr Infos zu Dir](postback:mehr_bot)",
+    "BOT": "Hallo, ich bin der persönliche Bot von Sebastian Schuster, ich darf ihn aber Sebastian nennen.\n![Sebastian](http://www.sebastian-schuster.de/img/avatar.png) \n Willst Du ? %[Mehr Infos zu Sebastian](postback:mehr_sebastian) %[Mehr Infos zu mir](postback:mehr_bot)",
 	
 	"MEHR INFOS ZU SEBASTIAN" : "Mehr Infos zu Sebastian",
-	"MEHR INFOS ZU DIR" : "Mehr Infos zu BuzzBot",
+	"MEHR INFOS ZU MIR" : "Mehr Infos zu BuzzBot",
 	
     "TELL ME MORE ABOUT ANDY": "Andy can code on both available iOS-friendly languages: Swift and Objective C.\nHe also have enough experience in using standard frameworks: UIKit, Core-based frameworks (vanilla CoreData included), Foundation, AutoLayout, Storyboards, XIBs, MapKit, NotificationCenter and many 3rd party frameworks. %[Latest works](postback:apps) %[Experience](postback:experience) %[Education](postback:education)",
     "LATEST WORKS" : "Latest iOS applications, where Andy took a part in: %[Qlean](postback:qlean_app) %[Shelly](postback:shelly_app) %[Stoloto](postback:stoloto_app) %[2ch browser](postback:dvach_browser) %[Other projects](http://8of.org/)",
