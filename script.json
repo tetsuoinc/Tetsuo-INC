@@ -48,7 +48,7 @@
 
 	
 	"HALLO": "Hallo, wie geht es Dir? %[Gut](postback:geht_gut) %[Schlecht](postback:geht_schlecht) %[Geht so](postback:geht_so)",
-	"HI": "Hallo, wie geht es Dir? %[Gut](postback:geht_gut) %[Schlecht](postback:geht_schlecht) %[Geht so](postback:geht_so)",
+	"HI": "Hi, wie geht es Dir? %[Gut](postback:geht_gut) %[Schlecht](postback:geht_schlecht) %[Geht so](postback:geht_so)",
 	"GUT": "Na das ist doch toll! \n Bei welchem Thema soll ich Dir helfen: %[Sebastian](postback:hilfe_sebastian) %[Befehle](postback:hilfe_befehle)",
 	"SCHLECHT": "Geht es Dir wirklich soooo schlecht?! Na komm schon, Kopf hoch! \n Bei welchem Thema soll ich Dir helfen: %[Sebastian](postback:hilfe_sebastian) %[Befehle](postback:hilfe_befehle)",
 	"GEHT SO": "Aha, geht so! Oder wie der Franzose sagt: Comme Ci, Comme Ca \n Bei welchem Thema soll ich Dir helfen: %[Sebastian](postback:hilfe_sebastian) %[Befehle](postback:hilfe_befehle)",
