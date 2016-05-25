@@ -11,8 +11,8 @@
 	"KONTAKT": "Du kannst Sebastian eine E-Mail an mail@sebastian-schuster.de schreiben. Hier sind noch mehr Kontaktmöglichkeiten: %[Xing](https://www.xing.com/profile/Sebastian_Schuster5) %[Facebook](https://www.facebook.com/sebastian.schuster) %[Twitter](https://twitter.com/buzzdee) %[Google+](https://plus.google.com/+SebastianSchusterSES) %[LinkedIn](https://www.linkedin.com/in/sebschu)",
 
     "BOT": "Ich bin der persönliche Bot von Sebastian, meistens darf ich Ihn sogar Basti nennen.\n![Sebastian](http://www.sebastian-schuster.de/img/avatar.png) \n Willst Du ? %[Mehr Infos zu Sebastian](postback:mehr_sebastian) %[Mehr Infos zu mir](postback:mehr_bot)",
-	"WIE IST DEIN NAME": "Ich heisse BUZZBOT und ich bin der persönliche Bot von Sebastian, meistens darf ich Ihn sogar Basti nennen.\n![Sebastian](http://www.sebastian-schuster.de/img/avatar.png) \n Willst Du ? %[Mehr Infos zu Sebastian](postback:mehr_sebastian) %[Mehr Infos zu mir](postback:mehr_bot)",	
-	
+	"WIE IST DEIN NAME": "Mein Name ist BUZZBOT und ich bin der persönliche Bot von Sebastian.\n![Sebastian](http://www.sebastian-schuster.de/img/avatar.png) \n Willst Du ? %[Mehr Infos zu Sebastian](postback:mehr_sebastian) %[Mehr Infos zu mir](postback:mehr_bot)",	
+	"WIE HEISST DU": "Ich heisse BUZZBOT und ich bin der persönliche Bot von Sebastian.\n![Sebastian](http://www.sebastian-schuster.de/img/avatar.png) \n Willst Du ? %[Mehr Infos zu Sebastian](postback:mehr_sebastian) %[Mehr Infos zu mir](postback:mehr_bot)",		
 	
 	"MEHR INFOS ZU SEBASTIAN" : "Mehr Infos zu Sebastian",
 	"MEHR INFOS ZU MIR" : "Mehr Infos zu BuzzBot",
@@ -47,7 +47,8 @@
 	
 
 	
-	"HALLO": "Hallo, wie geht es Dir? %[Gut](postback:geht_gut) %[Schlecht](postback:geht_schlecht) %[Geht so](postback:geht_so) ",
+	"HALLO": "Hallo, wie geht es Dir? %[Gut](postback:geht_gut) %[Schlecht](postback:geht_schlecht) %[Geht so](postback:geht_so)",
+	"HI": "Hallo, wie geht es Dir? %[Gut](postback:geht_gut) %[Schlecht](postback:geht_schlecht) %[Geht so](postback:geht_so)",
 	"GUT": "Na das ist doch toll! \n Bei welchem Thema soll ich Dir helfen: %[Sebastian](postback:hilfe_sebastian) %[Befehle](postback:hilfe_befehle)",
 	"SCHLECHT": "Geht es Dir wirklich soooo schlecht?! Na komm schon, Kopf hoch! \n Bei welchem Thema soll ich Dir helfen: %[Sebastian](postback:hilfe_sebastian) %[Befehle](postback:hilfe_befehle)",
 	"GEHT SO": "Aha, geht so! Oder wie der Franzose sagt: Comme Ci, Comme Ca \n Bei welchem Thema soll ich Dir helfen: %[Sebastian](postback:hilfe_sebastian) %[Befehle](postback:hilfe_befehle)",
