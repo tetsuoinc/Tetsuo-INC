@@ -23,7 +23,7 @@ module.exports = new Script({
         receive: (bot, message) => {
             const name = message.text;
             return bot.setProp('name', name)
-                 .then(() => bot.say(`Sehr schön, freut mich Dich kennenzulernen, ${name}`))
+                 .then(() => bot.say(`Sehr schön, freut mich Dich kennenzulernen, ${name}. \nWenn Du das Wort Hilfe eingibst, erhältst Du eine kleine Übersicht zu den Themen über die wir sprechen können. \nDu kannst übrigens auch alle Wörter kleinschreiben. Ach ja, und lass bitte alle Satzzeichen wie Punkt, Komma, Ausrufe- und Fragezeichen weg. Die bringen mich nur durcheinandern. `))
                 .then(() => 'speak');  
         }
     },
