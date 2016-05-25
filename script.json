@@ -4,8 +4,10 @@
 	"FRAGE": "OK, ich soll Dir also eine Frage stellen!? Wählst Du JA oder NEIN ?\n  %[JA](postback:JA) %[NEIN](postback:NEIN) ",
 	"JA": "Du hast mit JA geantwortet.",
 	"NEIN": "Du hast mit NEIN geantwortet.",
-	"KEYWORD": "phrase here %[buttonlabel](postback:button)",
-	"BUTTONLABEL": "text from when buttons pushed",
+	
+	"TEST": "Hier steht ein Test-Satz %[testausgabe](postback:test)",
+	"TESTAUSGABE": "Das ist der Text der durch den Button ausgelöst wurde!",
+	
 	"TELL HER": "Let's tweet @ Esther so she knows you're setting a bot up. Here's a tweet that's ready to go: %[Tweet Esther](http://bit.ly/estherbot-tweet)",
 	"HALLO": "Hallo, wie geht es Dir?",
 	"GUT": "Wenn es Dir gut geht, geht es mir auch gut!",
