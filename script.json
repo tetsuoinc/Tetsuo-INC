@@ -2,11 +2,13 @@
 	"HILFE": "Bei welchem Thema soll ich Dir helfen: %[Sebastian](postback:hilfe_sebastian) %[Befehle](postback:hile_befehle)",
 	
 	"SEBASTIAN": "Mehr zu Sebastian",
+	"SEBASTIAN SCHUSTER": "Mehr zu Sebastian",
+	
 	"BEFEHLE": "Mehr zu Befehlen",
 	
 	"BERUF": "Sebastian ist Leiter Frontend Developer bei der Main-Post.",
 	"HOBBYS": "Eines seiner Hobbys ist es Bots wie mich zu programmieren.",
-	"KONTAKT": "Schreib Sebastian doch einfach eine E-Mail an mail@sebastian-schuster.de",
+	"KONTAKT": "Hier sind einige Kontaktmöglichkeiten: %[E-Mail] (mailto:mail@sebastian-schuster.de) %[Xing](https://www.xing.com/profile/Sebastian_Schuster5) %[Facebook](https://www.facebook.com/sebastian.schuster) %[Twitter](https://twitter.com/buzzdee) %[Google+](https://plus.google.com/+SebastianSchusterSES) %[LinkedIn](https://www.linkedin.com/in/sebschu)",
 
     "BOT": "Ich bin der persönliche Bot von Sebastian, meistens darf ich Ihn sogar Basti nennen.\n![Sebastian](http://www.sebastian-schuster.de/img/avatar.png) \n Willst Du ? %[Mehr Infos zu Sebastian](postback:mehr_sebastian) %[Mehr Infos zu mir](postback:mehr_bot)",
 	"WIE IST DEIN NAME": "Ich bin der persönliche Bot von Sebastian, meistens darf ich Ihn sogar Basti nennen.\n![Sebastian](http://www.sebastian-schuster.de/img/avatar.png) \n Willst Du ? %[Mehr Infos zu Sebastian](postback:mehr_sebastian) %[Mehr Infos zu mir](postback:mehr_bot)",	
