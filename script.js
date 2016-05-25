@@ -27,26 +27,7 @@ module.exports = new Script({
                 .then(() => 'speak');  
         }
     },
-	
-	talkRandom: {
-        prompt: (bot) => bot.say("I normally don't let go anyone untill they say 'bye'"),
-        receive: (bot, message) => {
-                let upperText = message.text.trim().toUpperCase();
-                if(upperText === "BYE"){
-                    return bot.say("Great chatting with you. Have a good day ahead. Bye.");
-                }
-            }
-    },
 
-    tellMore: {
-        prompt: (bot) => bot.say("Wenn Du mehr über Sebastian erfahren willst, schreib einfach 'mehr'"),
-        receive: (bot, message) => {
-                let upperText = message.text.trim().toUpperCase();
-                if(upperText === "MEHR"){
-                    return bot.say("Sebastian kann noch viel mehr ..."); 
-                }
-            }
-    },
 	
 	speak: {
 		prompt: (bot) => bot.say('Um mehr über Sebastian zu erfahren, kannst Du jederzeit folgendes tippen: Beruf, Hobbys, Kontakt, Hilfe'),
@@ -70,8 +51,7 @@ module.exports = new Script({
             }
 
 
-/* getReply should allow for some variety in responses for received text messages that 
-do not have an entry in the scripts.json file. */
+			/* getReply randomly*/
             function getReply() {
                 var messages = [ "Sorry. Ich verstehe noch nicht alles was Du sagst. Schreib mal KOMMANDOS um zu sehen was ich alles für Dich tun kann.",
                                  "Hey, das habe ich leider nicht verstanden. Schreib bitte HILFE um mehr zu erfahren.",
