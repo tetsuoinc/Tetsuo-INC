@@ -31,8 +31,8 @@ class BetterSmoochApiBot extends SmoochApiBot {
     }
 }
 
-const name = 'SmoochyBot';
-const avatarUrl = 'https://s.gravatar.com/avatar/f91b04087e0125153623a3778e819c0a?s=80';
+const name = 'SES-Bot';
+const avatarUrl = 'https://media.smooch.io/appicons/574479c60a6d0b4300d19acc.jpg';
 const store = new SmoochApiStore({
     jwt
 });
